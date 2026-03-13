@@ -47,3 +47,7 @@ Build and run with Docker:
 docker build -t llm-router .
 docker run -e OPENAI_API_KEY=your_key llm-router
 ```
+
+## Contributing
+
+Feel free to contribute improvements or additional expert personas.
