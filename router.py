@@ -31,6 +31,8 @@ User message: {message}"""
         print(f"Error in classification: {e}")
         return {"intent": "unclear", "confidence": 0.0}
 
+# Function to route and respond based on intent
+
 def route_and_respond(message: str, intent: dict) -> str:
     intent_label = intent["intent"]
     confidence = intent["confidence"]
