@@ -1,4 +1,7 @@
+# Python cache files
 __pycache__/
 *.pyc
+
+# Logs and environment
 route_log.jsonl
 .env
