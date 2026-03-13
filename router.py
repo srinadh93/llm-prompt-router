@@ -57,6 +57,8 @@ def route_and_respond(message: str, intent: dict) -> str:
         print(f"Error in response generation: {e}")
         return "Sorry, there was an error generating the response."
 
+# Function to log requests
+
 def log_request(intent: str, confidence: float, user_message: str, final_response: str):
     log_entry = {
         "intent": intent,
