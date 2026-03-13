@@ -31,10 +31,10 @@ python main.py test
 
 Prefix your message with @intent to bypass classification, e.g., "@code how do I sort a list in Python?"
 
-## Features
+## Docker Usage
 
-- Intent classification using LLM
-- Routing to expert personas: code, data, writing, career
-- Confidence threshold (0.7)
-- Logging to route_log.jsonl
-- Handles malformed JSON responses gracefully
+Build and run with Docker:
+```
+docker build -t llm-router .
+docker run -e OPENAI_API_KEY=your_key llm-router
+```
