@@ -23,6 +23,8 @@ def main():
     print(f"Intent: {intent['intent']} (confidence: {intent['confidence']})")
     print(f"Response: {response}")
 
+# Test function with sample messages
+
 def test():
     test_messages = [
         "how do i sort a list of objects in python?",
