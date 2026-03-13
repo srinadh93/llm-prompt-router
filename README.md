@@ -31,6 +31,15 @@ python main.py test
 
 Prefix your message with @intent to bypass classification, e.g., "@code how do I sort a list in Python?"
 
+## Features
+
+- Intent classification using LLM
+- Routing to expert personas: code, data, writing, career
+- Confidence threshold (0.7)
+- Logging to route_log.jsonl
+- Handles malformed JSON responses gracefully
+- Docker containerization support
+
 ## Docker Usage
 
 Build and run with Docker:
