@@ -3,6 +3,8 @@ import json
 import os
 from prompts import SYSTEM_PROMPTS
 
+# Function to classify user intent using LLM
+
 def classify_intent(message: str) -> dict:
     classifier_prompt = """Your task is to classify the user's intent. Based on the user message below, choose one of the following labels: code, data, writing, career, unclear. Respond with a single JSON object containing two keys: 'intent' (the label you chose) and 'confidence' (a float from 0.0 to 1.0, representing your certainty). Do not provide any other text or explanation.
 
