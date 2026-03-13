@@ -1,6 +1,8 @@
 from router import classify_intent, route_and_respond, log_request
 from prompts import SYSTEM_PROMPTS
 
+# Main function for CLI interaction
+
 def main():
     message = input("Enter your message: ")
     if message.startswith("@"):
