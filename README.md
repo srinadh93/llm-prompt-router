@@ -26,7 +26,7 @@ For testing with sample messages:
 ```
 python main.py test
 ```
-## Demo link
+## Demo URL
 https://drive.google.com/file/d/1YEemeV-PoHXdaffm1RHDVt7cGYIKgxtb/view?usp=sharing
 
 
